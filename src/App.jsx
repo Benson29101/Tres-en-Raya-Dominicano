@@ -62,8 +62,8 @@ function App() {
   const gameOver = Boolean(winner) || isDraw;
   
   let message;
-  if (winner) message = `¡Buena jugada! Ganó ${PLAYERS[winner]}`;
-  else if (isDraw) message = 'Empate, buena partida';
+  if (winner) message = `¡Epa! Ganó ${PLAYERS[winner]}`;
+  else if (isDraw) message = 'Empate, mi hermano';
   else message = `Turno de ${PLAYERS[currentPlayer]}`;
 
   // Acciones
