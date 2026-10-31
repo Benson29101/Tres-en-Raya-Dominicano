@@ -1,0 +1,23 @@
+Alumno: Benson Ho Chen 
+
+Configuración Inicial y Personalización
+- Creación y configuración del proyecto base con Vite y React.
+- Definición de la temática dominicana: Jugadores "Taíno" (X) y "Caribe" (O).
+
+Estructura y Lógica del Juego
+- Creación de la estructura visual separada en componentes (App, Board, Square, Status).
+- Manejo del estado del tablero a través de un arreglo de 9 posiciones usando useState.
+- Desarrollo de la función calculateWinner para evaluar las 8 combinaciones de victoria.
+- Lógica de turnos alternados (X y O) y bloqueo de casillas ya seleccionadas.
+
+Guardado de Partida
+- Integración de useEffect y localStorage para conservar el progreso de la partida aunque se recargue la página.
+
+Estilos y Personalización Visual
+- Diseño de fondo con gradientes CSS para representar la Bandera de la República Dominicana.
+- Ajuste de la interfaz para mantener el juego centrado en la pantalla.
+- Asignación de colores a los jugadores: X (Azul) y O (Rojo).
+- Personalización de los mensajes de victoria y empate con expresiones típicas ("¡Buena jugada! Ganó Taíno", "Empate, buena partida").
+
+Estado de "Game Over"
+- Cambio dinámico del color de fondo (a rojo oscuro) en el tablero y el mensaje de estado cuando la partida finaliza, aplicando clases condicionales.
