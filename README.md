@@ -1,16 +1,15 @@
-# React + Vite
+# Tres en Raya Dominicano
+**Nombre:** Benson Ho Chen
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descripción 
+Un juego de Tres en Raya al estilo dominicano, con jugadores con los roles Taíno (X) y Caribe (O) y con colores de nuestra bandera patria de república dominicana, rojo, azul y blanco.
+La partida se guarda, en caso de que se cierre y vuelva a abrir o se reinicie la página aún se puede continuar con la partida.
 
-Currently, two official plugins are available:
+## Lo Aprendido
+- Manejo de estado: con useState me permitió cambiar de turno y guardar las jugadas en las casillas
+- Inmutabilidad de React: en lugar de actualizar el original, se crea una copia con .slice() y hacemos el cambio en la copia
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Lo más difícil 
+Al momento de tratar de eliminar y modificar algunos líneas de código accidentalmente eliminé el *export default App*, cuando revisé la página se mostraba una pantalla blanca de repente y no encontraba cuál era el error. Hasta que más tarde me dí cuenta que eliminé la parte fundamental que permitía exportarlo y permitir el main.jsx llamarlo. 
+Comprendí de por qué es bueno dividir la pantalla en dos, uno para el código y otro para la página, en lugar de usar solo pantalla completa. 
