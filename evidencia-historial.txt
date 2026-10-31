@@ -17,7 +17,7 @@ Estilos y Personalización Visual
 - Diseño de fondo con gradientes CSS para representar la Bandera de la República Dominicana.
 - Ajuste de la interfaz para mantener el juego centrado en la pantalla.
 - Asignación de colores a los jugadores: X (Azul) y O (Rojo).
-- Personalización de los mensajes de victoria y empate con expresiones típicas ("¡Buena jugada! Ganó Taíno", "Empate, buena partida").
+- Personalización de los mensajes de victoria y empate con expresiones típicas ("¡Epa! Ganó {jugador}", "Empate, mi hermano").
 
 Estado de "Game Over"
 - Cambio dinámico del color de fondo (a rojo oscuro) en el tablero y el mensaje de estado cuando la partida finaliza, aplicando clases condicionales.
